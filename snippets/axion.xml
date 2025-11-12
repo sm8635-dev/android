@@ -21,12 +21,6 @@
           sync-j="4"
           revision="refs/heads/lineage-23.0" />
 
-  <remote  name="crdroid-gitlab"
-           fetch="https://gitlab.com/crdroidandroid/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/16.0" />
-
   <!-- Remove project -->
   <remove-project path="android" />
   <remove-project path="art" />
@@ -180,7 +174,7 @@
   <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" groups="pdk-fs" remote="axion" />
   <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" groups="pdk-fs" remote="axion" />
   <project path="packages/apps/EdgeLauncher" name="android_packages_apps_EdgeLauncher" groups="pdk-fs" remote="axion" />
-  <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="crdroid-gitlab" />
+  <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="axion-gitlab" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" groups="pdk-fs" remote="axion" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="axion" />
   <project path="packages/apps/Personalizations" name="android_packages_apps_Personalizations" groups="pdk-fs,sysui-studio" remote="axion" />
